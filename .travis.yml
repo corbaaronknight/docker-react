@@ -19,6 +19,6 @@ script:
     bucket_path: "docker-react"
     on:
       branch: master
-    access_key_id: $AWS_ACCES_key
+    access_key_id: $AWS_ACCES_KEY
     secret_access_key:
       secure: "$AWS_SECRET_KEY"
